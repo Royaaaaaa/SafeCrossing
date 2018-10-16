@@ -15,6 +15,10 @@
 		045EBD6221758E0300F9266D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045EBD6021758E0300F9266D /* LaunchScreen.storyboard */; };
 		045EBD6D21758E0300F9266D /* SafeCrossingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EBD6C21758E0300F9266D /* SafeCrossingTests.swift */; };
 		045EBD7821758E0300F9266D /* SafeCrossingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EBD7721758E0300F9266D /* SafeCrossingUITests.swift */; };
+		045EBD8C217595D500F9266D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045EBD8B217595D500F9266D /* GoogleService-Info.plist */; };
+		2612B327829178058D0C88F8 /* Pods_SafeCrossing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0B1587410F0280C1B1B0D9 /* Pods_SafeCrossing.framework */; };
+		90B92F10FF4E6819E5AF800E /* Pods_SafeCrossingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C034E7070240508D4E87B36 /* Pods_SafeCrossingTests.framework */; };
+		A39191F15FB79853FBA0D6C5 /* Pods_SafeCrossingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69667D8EDFE36CACC52D1EC /* Pods_SafeCrossingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		045EBD7321758E0300F9266D /* SafeCrossingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeCrossingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045EBD7721758E0300F9266D /* SafeCrossingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeCrossingUITests.swift; sourceTree = "<group>"; };
 		045EBD7921758E0300F9266D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045EBD8B217595D500F9266D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0C034E7070240508D4E87B36 /* Pods_SafeCrossingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCrossingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F10F57ACF3C3107BA9F6952 /* Pods-SafeCrossingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossingTests/Pods-SafeCrossingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36C25E1C4E25DCFF0DBF38DE /* Pods-SafeCrossingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossingUITests/Pods-SafeCrossingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48D2D3EA44CCFB711EDD1C53 /* Pods-SafeCrossing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossing/Pods-SafeCrossing.debug.xcconfig"; sourceTree = "<group>"; };
+		845EB8C0D4876A4BE8ACF126 /* Pods-SafeCrossingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossingUITests/Pods-SafeCrossingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E01A344FE8C9E14621D508 /* Pods-SafeCrossing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossing.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossing/Pods-SafeCrossing.release.xcconfig"; sourceTree = "<group>"; };
+		9F0B1587410F0280C1B1B0D9 /* Pods_SafeCrossing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCrossing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69667D8EDFE36CACC52D1EC /* Pods_SafeCrossingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCrossingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D367718EE19E9DFCE492B389 /* Pods-SafeCrossingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossingTests/Pods-SafeCrossingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2612B327829178058D0C88F8 /* Pods_SafeCrossing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B92F10FF4E6819E5AF800E /* Pods_SafeCrossingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39191F15FB79853FBA0D6C5 /* Pods_SafeCrossingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				045EBD6B21758E0300F9266D /* SafeCrossingTests */,
 				045EBD7621758E0300F9266D /* SafeCrossingUITests */,
 				045EBD5221758E0200F9266D /* Products */,
+				54C6417AA96125DE1489A7E1 /* Pods */,
+				CE96283C76D8CF85BFC5FC31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				045EBD5621758E0200F9266D /* ViewController.swift */,
 				045EBD5821758E0200F9266D /* Main.storyboard */,
 				045EBD5E21758E0300F9266D /* Assets.xcassets */,
+				045EBD8B217595D500F9266D /* GoogleService-Info.plist */,
 				045EBD6021758E0300F9266D /* LaunchScreen.storyboard */,
 				045EBD6321758E0300F9266D /* Info.plist */,
 				045EBD5B21758E0200F9266D /* SafeCrossing.xcdatamodeld */,
@@ -128,6 +148,29 @@
 			path = SafeCrossingUITests;
 			sourceTree = "<group>";
 		};
+		54C6417AA96125DE1489A7E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48D2D3EA44CCFB711EDD1C53 /* Pods-SafeCrossing.debug.xcconfig */,
+				99E01A344FE8C9E14621D508 /* Pods-SafeCrossing.release.xcconfig */,
+				0F10F57ACF3C3107BA9F6952 /* Pods-SafeCrossingTests.debug.xcconfig */,
+				D367718EE19E9DFCE492B389 /* Pods-SafeCrossingTests.release.xcconfig */,
+				845EB8C0D4876A4BE8ACF126 /* Pods-SafeCrossingUITests.debug.xcconfig */,
+				36C25E1C4E25DCFF0DBF38DE /* Pods-SafeCrossingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE96283C76D8CF85BFC5FC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F0B1587410F0280C1B1B0D9 /* Pods_SafeCrossing.framework */,
+				0C034E7070240508D4E87B36 /* Pods_SafeCrossingTests.framework */,
+				C69667D8EDFE36CACC52D1EC /* Pods_SafeCrossingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045EBD7C21758E0300F9266D /* Build configuration list for PBXNativeTarget "SafeCrossing" */;
 			buildPhases = (
+				48E12ED1D7EFEE4CD9335CD8 /* [CP] Check Pods Manifest.lock */,
 				045EBD4D21758E0200F9266D /* Sources */,
 				045EBD4E21758E0200F9266D /* Frameworks */,
 				045EBD4F21758E0200F9266D /* Resources */,
+				E6CB5A98610150CFD766B6D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045EBD7F21758E0300F9266D /* Build configuration list for PBXNativeTarget "SafeCrossingTests" */;
 			buildPhases = (
+				5E9197F4AF8EBF51D2491DEA /* [CP] Check Pods Manifest.lock */,
 				045EBD6421758E0300F9266D /* Sources */,
 				045EBD6521758E0300F9266D /* Frameworks */,
 				045EBD6621758E0300F9266D /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045EBD8221758E0300F9266D /* Build configuration list for PBXNativeTarget "SafeCrossingUITests" */;
 			buildPhases = (
+				B6DEE13390D9F38B9620F79F /* [CP] Check Pods Manifest.lock */,
 				045EBD6F21758E0300F9266D /* Sources */,
 				045EBD7021758E0300F9266D /* Frameworks */,
 				045EBD7121758E0300F9266D /* Resources */,
@@ -233,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045EBD6221758E0300F9266D /* LaunchScreen.storyboard in Resources */,
+				045EBD8C217595D500F9266D /* GoogleService-Info.plist in Resources */,
 				045EBD5F21758E0300F9266D /* Assets.xcassets in Resources */,
 				045EBD5A21758E0200F9266D /* Main.storyboard in Resources */,
 			);
@@ -253,6 +301,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E12ED1D7EFEE4CD9335CD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafeCrossing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9197F4AF8EBF51D2491DEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafeCrossingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DEE13390D9F38B9620F79F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafeCrossingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6CB5A98610150CFD766B6D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SafeCrossing/Pods-SafeCrossing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafeCrossing/Pods-SafeCrossing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		045EBD4D21758E0200F9266D /* Sources */ = {
@@ -434,16 +563,17 @@
 		};
 		045EBD7D21758E0300F9266D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D2D3EA44CCFB711EDD1C53 /* Pods-SafeCrossing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2H2797PHCF;
+				DEVELOPMENT_TEAM = 37RT56567M;
 				INFOPLIST_FILE = SafeCrossing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Monash.SafeCrossing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monash.SafeCrossing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,16 +582,17 @@
 		};
 		045EBD7E21758E0300F9266D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E01A344FE8C9E14621D508 /* Pods-SafeCrossing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2H2797PHCF;
+				DEVELOPMENT_TEAM = 37RT56567M;
 				INFOPLIST_FILE = SafeCrossing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Monash.SafeCrossing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monash.SafeCrossing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +601,7 @@
 		};
 		045EBD8021758E0300F9266D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F10F57ACF3C3107BA9F6952 /* Pods-SafeCrossingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +623,7 @@
 		};
 		045EBD8121758E0300F9266D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D367718EE19E9DFCE492B389 /* Pods-SafeCrossingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +645,7 @@
 		};
 		045EBD8321758E0300F9266D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845EB8C0D4876A4BE8ACF126 /* Pods-SafeCrossingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +666,7 @@
 		};
 		045EBD8421758E0300F9266D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C25E1C4E25DCFF0DBF38DE /* Pods-SafeCrossingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
